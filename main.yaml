@@ -3,7 +3,7 @@
   tasks:
     - name: Hello World!
       debug:
-        msg: "Hello World! {{ fruit }}"
+        msg: "Hello World this ! {{ fruit }}"
     - name: Hey!!
       debug:
         msg: "hey !! {{ na }}"
