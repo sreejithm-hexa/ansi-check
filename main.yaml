@@ -3,4 +3,8 @@
   tasks:
     - name: Hello World!
       debug:
-        msg: "Hello World!"
+        msg: "Hello World! {{ fruit }}"
+    - name: Hey!!
+      debug:
+        msg: "hey !! {{ na }}"
+      when: na is defined
